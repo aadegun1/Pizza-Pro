@@ -17,7 +17,6 @@ public class Receipt {
 
     double totalCost= Menu.PizzaCost(pizzaPrice);
 
-        //System.out.println("\nYour order total is " + Menu.PizzaCost(pizzaPrice));
 
     System.out.println("\nYour order total is " + Receipt.OrderTotal(totalCost));
 
